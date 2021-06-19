@@ -1,0 +1,36 @@
+.filter-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //padding: 33px;
+  background: #fff;
+  border-bottom: 1px solid #f1f1f1;
+  box-sizing: border-box;
+
+  .title-filter {
+    padding: 28px;
+    font-size: 23px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .filter-action {
+    position: relative;
+    display: flex;
+
+    .icon {
+      cursor: pointer;
+      padding: 33px;
+      fill: #000;
+
+      &.active {
+        background: #000;
+        fill: #fff;
+      }
+    }
+  }
+}
