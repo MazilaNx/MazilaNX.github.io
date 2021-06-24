@@ -128,6 +128,7 @@
     }
 
     .description-product {
+      cursor: pointer;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -155,11 +156,16 @@
           display: flex;
           align-items: center;
           color: #000000;
+
+          &.nowrap {
+            white-space: nowrap;
+          }
         }
 
         .details {
+          display: none;
           opacity: 0;
-          display: flex;
+          //display: flex;
           align-items: center;
           transition: .3s;
 
@@ -264,6 +270,10 @@
           display: flex;
           align-items: center;
           color: #000000;
+
+          &.nowrap {
+            white-space: nowrap;
+          }
         }
       }
     }
