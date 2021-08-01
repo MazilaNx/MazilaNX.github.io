@@ -27,6 +27,32 @@
     }
   }
 
+  &.description-preview-items {
+    .item-mid {
+      height: 360px;
+      width: 100%;
+
+      @include oldDesktop {
+        width: 100%;
+      }
+
+      @include mobile {
+        width: 100%;
+      }
+    }
+
+    .item-low {
+      width: 50%;
+
+      @include oldDesktop {
+        width: 50%;
+      }
+      @include mobile {
+        width: 100%;
+      }
+    }
+  }
+
   .item-mid {
     position: relative;
     cursor: pointer;
