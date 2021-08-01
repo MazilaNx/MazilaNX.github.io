@@ -213,6 +213,7 @@ body.modal-open {
         align-items: center;
         justify-content: space-between;
         padding: 33px;
+        width: calc(100% + 1px);
 
         .text-confirm-fitting {
           font-weight: 500;
